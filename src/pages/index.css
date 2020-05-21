@@ -1,0 +1,269 @@
+.main {
+  margin-top: 25px; 
+  margin-bottom: 250px; 
+  min-height: 100vh; 
+  overflow: hidden; 
+  position: relative; 
+  display: block;
+}
+
+.main__portada {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 600px;
+  background: red; 
+  background-image: url(./Portada.jpg);
+  background-size: 100% 100% ;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__portada-titulo {
+  display: flex;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-indent: 10px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+}
+
+.main__portada-modal {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  text-indent: 10px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 25px;
+  margin: 0 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px
+}
+
+.destacadas-titulo {
+  display: flex;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-indent: 10px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  justify-content: center
+}
+
+.destacadas-fichas {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;  
+  width: 100%;
+  justify-content: center
+}
+
+.destacadas-fichas-link {
+  text-decoration: none;
+  color: inherit;
+}
+.destacadas-fichas-ficha{
+  width: 300px; 
+  padding: 10px; 
+  border-radius: 5px; 
+  box-shadow:0 4px 4px rgba(0,0,0,0.25); 
+  margin: 15px;
+  background: #fff
+}
+
+.destacadas-fichas-ficha-titulo{
+  display: flex;
+  font-style: normal;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  padding-top: 10px;
+}
+
+.destacadas-fichas-ficha-lista {
+  list-style: none; 
+  font-size: 0.8rem; 
+  font-weight: bold
+}
+
+.destacadas-fichas-ficha-tipo {
+  text-transform: capitalize
+}
+
+.destacadas-fichas-ficha-precio {
+  color: #58DB74;
+  text-align: right
+}
+
+.pasos__principal {
+  background: #A2A98F;
+  padding: 45px;
+  color: #fff
+}
+
+.pasos__principal-subtitulo {
+  display: flex;
+  font-style: normal;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+}
+
+.pasos__principal-cuadro {
+  background: #C4C4C4;
+  color: #000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pasos__principal-cuadro-unidad {
+  background: #fff;
+  color: #000;
+  padding: 25px;
+  margin: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.button__mail {
+  /* display: block; */
+  border-radius: 4px;
+  background-color: rgb(234, 172, 8);
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+  }
+
+.button__mail span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button__mail span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button__mail:hover span {
+  padding-right: 25px;
+}
+
+.button__mail:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button__whatsapp {
+  display: none;
+  border-radius: 4px;
+  background-color: #58DB74;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+  }
+
+.button__whatsapp span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button__whatsapp span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button__whatsapp:hover span {
+  padding-right: 25px;
+}
+
+.button__whatsapp:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+@media (max-width: 768px){
+  .main__portada {
+    width: 100%;
+    height: auto;
+  }
+
+  .main__portada-titulo{
+    margin: 15px;
+  }
+
+  .main__portada-modal{
+    padding: 15px;
+    margin: 0;
+  }
+
+  .destacadas-titulo{
+    font-size: 30px;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  .destacadas-fichas-ficha {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px 10px;
+  }
+
+  .pasos__principal {
+    padding: 0;
+    padding-top: 15px;
+  }
+
+  .button__mail {
+    display: none;
+  }
+
+  .button__whatsapp {
+    display: block;
+    background: #58DB74;
+  }
+}
+
+@media (min-width: 769px){
+
+}
