@@ -141,6 +141,11 @@
     margin: 10px 0;
   }
 
+  .buscar-fichas {
+    width: 100%;
+     
+  }
+
   .buscar-fichas-ficha {
     width: 90%;
     margin: auto;
@@ -149,23 +154,23 @@
   }
 
   .buscar-fichas-ficha-titulo{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .buscar-fichas-ficha-texto{
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .buscar-fichas-ficha-lista{
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .buscar-fichas-ficha-tipo{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .buscar-fichas-ficha-precio{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0;
 
   }

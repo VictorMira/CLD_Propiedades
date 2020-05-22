@@ -35,9 +35,9 @@ export default ({data}) => {
                             </h3>
                             <p className="buscar-fichas-ficha-texto">{node.excerpt}</p>
                             <ul className="buscar-fichas-ficha-lista">
-                                    <li className="buscar-ficha-caracteristicas-texto">Habitaciones <FaBed className="buscar-ficha-caracteristicas-icono"/> {node.frontmatter.dormitorios_c}</li>
-                                    <li className="buscar-ficha-caracteristicas-texto">Baños <FaShower className="buscar-ficha-caracteristicas-icono"/>{node.frontmatter.bano_c}</li>
-                                    <li className="buscar-ficha-caracteristicas-texto">Superficie <FaRulerCombined className="buscar-ficha-caracteristicas-icono"/> {node.frontmatter.area_u}</li>
+                                    <li className="buscar-ficha-caracteristicas-texto"><FaBed className="buscar-ficha-caracteristicas-icono"/> Habitaciones:  {node.frontmatter.dormitorios_c}</li>
+                                    <li className="buscar-ficha-caracteristicas-texto"><FaShower className="buscar-ficha-caracteristicas-icono"/> Baños: {node.frontmatter.bano_c}</li>
+                                    <li className="buscar-ficha-caracteristicas-texto"><FaRulerCombined className="buscar-ficha-caracteristicas-icono"/> Superficie:  {node.frontmatter.area_u}</li>
                                 </ul>
                                 <p className="buscar-fichas-ficha-tipo" >{node.frontmatter.tipo}</p>
                                 <h3 className="buscar-fichas-ficha-precio">{node.frontmatter.precio}</h3>

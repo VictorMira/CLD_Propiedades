@@ -26,15 +26,17 @@ export default () => (
   }}>corredora@latorredecizer.com</span></li></a>
             <li><FaMapMarked /> <span style={{
     color: '#fff'
-  }}>Arturo Prat 199, Piso 16, Concepción</span></li>
+  }}>Cosme Churruca 135, Concepción</span></li>
             <a href=""><li><FaFacebook /> <span style={{
     color: '#fff'
   }}>Encuentranos en Facebook</span></li></a>
             <a href="https://wa.me/56986911018" className="footer__contact-whastapp"><li><FaWhatsapp /> <span style={{
     color: '#fff'
   }}>Contactanos por Whatsapp</span></li></a>
+
         </ul>
       </div>
+      
     </div>
         
         

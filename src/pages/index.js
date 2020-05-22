@@ -25,7 +25,7 @@ export default ({data}) => (
             <div className="main__portada">
                 <h1 className="main__portada-titulo" style ={{fontFamily: 'Candara'}}>Busca tu Propiedad</h1>
                 <div className="main__portada-modal">
-                <p >En CLD Gestión Inmoviliaria, trabajamos con y para las personas, la meta final es convertir esas casas y departamentos en cálidos hogares 
+                <p >En CLD Gestión Inmobiliaria, trabajamos con y para las personas, la meta final es convertir esas casas y departamentos en cálidos hogares 
 y para eso el principal pilar es comenzar con un trato amable, abierto y mucha confianza.</p>
                 <p>Contáctanos para guiarte, apoyarte y asesorarte en el mundo inmobiliario.</p>
                 
@@ -51,9 +51,9 @@ y para eso el principal pilar es comenzar con un trato amable, abierto y mucha c
                       </h3>
                       <p className="destacadas-fichas-ficha-texto">{node.excerpt}</p>
                       <ul className="destacadas-fichas-ficha-lista">
-                          <li className="destacadas-ficha-caracteristicas-texto">Habitaciones <FaBed className="destacadas-ficha-caracteristicas-icono"/> {node.frontmatter.dormitorios_c}</li>
-                          <li className="destacadas-ficha-caracteristicas-texto">Baños <FaShower className="destacadas-ficha-caracteristicas-icono"/>{node.frontmatter.bano_c}</li>
-                          <li className="destacadas-ficha-caracteristicas-texto">Superficie <FaRulerCombined className="destacadas-ficha-caracteristicas-icono"/> {node.frontmatter.area_u}</li>
+                          <li className="destacadas-ficha-caracteristicas-texto"> <FaBed className="destacadas-ficha-caracteristicas-icono"/> Habitaciones: {node.frontmatter.dormitorios_c}</li>
+                          <li className="destacadas-ficha-caracteristicas-texto"><FaShower className="destacadas-ficha-caracteristicas-icono"/>Baños: {node.frontmatter.bano_c}</li>
+                          <li className="destacadas-ficha-caracteristicas-texto"><FaRulerCombined className="destacadas-ficha-caracteristicas-icono"/>Superficie:  {node.frontmatter.area_u}</li>
                       </ul>
                       <p className="destacadas-fichas-ficha-tipo" >{node.frontmatter.tipo}</p>
                       <h3 className="destacadas-fichas-ficha-precio">{node.frontmatter.precio}</h3>
@@ -79,7 +79,7 @@ y para eso el principal pilar es comenzar con un trato amable, abierto y mucha c
                     <h3><span style={{ color: '#F7934C'}}>2.</span> Propuesta Comercial</h3>
                     <div className="pasos__principal-cuadro-unidad-bloque">
                         <FaClipboardCheck className="pasos__principal-cuadro-unidad-icono"/>
-                        <p className="pasos__principal-cuadro-unidad-texto"> Basadonos en las características de tu propiedad y en la investigación de precios publicados en el barrio, procederemos a proponerte un previo de compra/venta o arriendo.</p>
+                        <p className="pasos__principal-cuadro-unidad-texto"> Basadonos en las características de tu propiedad y en la investigación de precios publicados en el barrio, procederemos a proponerte un precio de compra/venta o arriendo.</p>
                     </div>
                     
                     </div>
