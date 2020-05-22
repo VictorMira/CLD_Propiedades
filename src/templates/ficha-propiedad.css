@@ -10,7 +10,7 @@
 }
 
 .main__container {
-  background: #646E78;
+  background: rgba(100, 110, 120,0.6);
   padding-bottom: 30px;
   height: 100%;
 }

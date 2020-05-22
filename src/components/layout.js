@@ -5,6 +5,8 @@ import Toolbar from '../components/Toolbar';
 import SideDrawer from '../components/SideDrawer/Sidedrawer';
 import Backdrop from '../components/Backdrop/Backdrop';
 
+import '../assets/fonts/fonts.css'
+
 class Layout extends Component {
     constructor(props){
         super(props);
