@@ -32,6 +32,15 @@ module.exports = {
       options: {
         name: `pages`,
         path: `${__dirname}/src/pages`,
+        // name: `fonts`,
+        // path: `${__dirname}/src/assets/fonts/`
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `fonts`,
+        path: `${__dirname}/src/assets/fonts/`
       }
     },
     {

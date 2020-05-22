@@ -12,6 +12,7 @@ import Footer from '../components/footer';
 
 
 import './index.css'
+import '../assets/fonts/fonts.css'
 
 import {FaWhatsapp, FaBed, FaShower, FaRulerCombined, FaHandshake, FaClipboardCheck, FaCameraRetro, FaTasks} from 'react-icons/fa'
 
@@ -22,7 +23,7 @@ export default ({data}) => (
         
         <main className="main">
             <div className="main__portada">
-                <h1 className="main__portada-titulo">Busca tu Propiedad</h1>
+                <h1 className="main__portada-titulo" style ={{fontFamily: 'Candara'}}>Busca tu Propiedad</h1>
                 <div className="main__portada-modal">
                 <p >En CLD Gestión Inmoviliaria, trabajamos con y para las personas, la meta final es convertir esas casas y departamentos en cálidos hogares 
 y para eso el principal pilar es comenzar con un trato amable, abierto y mucha confianza.</p>
@@ -33,7 +34,7 @@ y para eso el principal pilar es comenzar con un trato amable, abierto y mucha c
             <div style={{
     background: '#646E78'
   }}>
-    <h1 className="destacadas-titulo">Propiedades Destacadas</h1>
+    <h1 className="destacadas-titulo" style ={{fontFamily: 'Candara'}}>Propiedades Destacadas</h1>
     <hr />
     <div className="destacadas-fichas">
     {data.allMarkdownRemark.edges.map(({ node }) => (
@@ -42,7 +43,7 @@ y para eso el principal pilar es comenzar con un trato amable, abierto y mucha c
               <Link key={node.id} to={node.fields.slug} className="destacadas-fichas-link">
                   <div className="destacadas-fichas-ficha">
                   <Img fluid={node.frontmatter.album_image1.childImageSharp.fluid}/>
-                      <h3 className="destacadas-fichas-ficha-titulo">
+                      <h3 className="destacadas-fichas-ficha-titulo" style ={{fontFamily: 'Candara'}}>
                           {node.frontmatter.title}{" "}
                           <span>
                           
@@ -65,17 +66,17 @@ y para eso el principal pilar es comenzar con un trato amable, abierto y mucha c
                
             <div className="pasos__principal">
                 <h1
-                className="main__portada-titulo">¿Quieres vender o arrendar tu propiedad?</h1>
-                <h2 className="pasos__principal-subtitulo">¡Contáctanos! </h2>
+                className="main__portada-titulo" style ={{fontFamily: 'Candara'}}>¿Quieres vender o arrendar tu propiedad?</h1>
+                <h2 className="pasos__principal-subtitulo" style ={{fontFamily: 'Candara'}}>¡Contáctanos! </h2>
                 <div className="pasos__principal-cuadro">
                     <div className="pasos__principal-cuadro-unidad ">
-                    <h3>1. Reunión de Coordinación</h3>
+                    <h3><span style={{ color: '#F7934C'}}>1.</span> Reunión de Coordinación</h3>
                     <div className="pasos__principal-cuadro-unidad-bloque">
                         <FaHandshake className="pasos__principal-cuadro-unidad-icono"/>
                         <p className="pasos__principal-cuadro-unidad-texto">Agendaremos una reunión para presentarte nuestra metodología de trabajo y además para conocer tu propiedad.</p>
                     </div>
                     
-                    <h3>2. Propuesta Comercial</h3>
+                    <h3><span style={{ color: '#F7934C'}}>2.</span> Propuesta Comercial</h3>
                     <div className="pasos__principal-cuadro-unidad-bloque">
                         <FaClipboardCheck className="pasos__principal-cuadro-unidad-icono"/>
                         <p className="pasos__principal-cuadro-unidad-texto"> Basadonos en las características de tu propiedad y en la investigación de precios publicados en el barrio, procederemos a proponerte un previo de compra/venta o arriendo.</p>
@@ -83,13 +84,13 @@ y para eso el principal pilar es comenzar con un trato amable, abierto y mucha c
                     
                     </div>
             <div className="pasos__principal-cuadro-unidad ">
-                    <h3>3. Fotografías de la Propiedad</h3>
+                    <h3><span style={{ color: '#F7934C'}}>3.</span> Fotografías de la Propiedad</h3>
                     <div className="pasos__principal-cuadro-unidad-bloque">
                         <FaCameraRetro className="pasos__principal-cuadro-unidad-icono"/>
                         <p className="pasos__principal-cuadro-unidad-texto">Nos encargaremos de fotografiar tu propiedad para entregar al potencial comprador/arrendatario una clara idea de las características y ubicación de la propiedad.</p>
 
                     </div>
-                    <h3>4. Publicación</h3>
+                    <h3><span style={{ color: '#F7934C'}}>4.</span> Publicación</h3>
                     <div className="pasos__principal-cuadro-unidad-bloque">
                         <FaTasks className="pasos__principal-cuadro-unidad-icono"/>
                         <p className="pasos__principal-cuadro-unidad-texto"> Publicaremos tu propiedad en nuestro sitio web y en las plataformas digitales más importantes del país, para darte la mayor exposición posible y maximizar las oportunidades de ser visto.</p>

@@ -1,0 +1,7 @@
+@font-face {
+  font-family: Candara;
+  font-weight: 400;
+  font-style: normal;
+  src: url("Candara.ttf") format("ttf");
+  font-display: swap;
+}
