@@ -45,7 +45,7 @@ export default ({ data }) => {
                             <div className="main__container-ficha-fondo-fotos-foto">
                                 <Img fluid={propiedad.frontmatter.album_image9.childImageSharp.fluid}/></div> */}
                         </div>   
-                        
+                        <div className="main__container-ficha-descripcion">
                                 <h2 className="main__container-ficha-titulo">Descripción de la Propiedad</h2>
                                 <hr />
                                 <div className="main__container-ficha-texto" dangerouslySetInnerHTML={{ __html: propiedad.html}}/>                   
@@ -63,6 +63,8 @@ export default ({ data }) => {
                                 <h1 className="precio-operacion">{propiedad.frontmatter.precio}</h1>
 
                             </div>
+
+                        </div>
                                           
 
                     </div>
