@@ -8,7 +8,7 @@ import './ficha-propiedad.css';
 
 import Img from 'gatsby-image';
 
-import {FaCheckCircle, FaBed, FaShower, FaWarehouse, FaRulerCombined, FaWhatsapp } from 'react-icons/fa';
+import {FaCheckCircle, FaMoneyBillWave, FaBed, FaShower, FaWarehouse, FaRulerCombined, FaWhatsapp } from 'react-icons/fa';
 
 export default ({ data }) => {
     const propiedad = data.markdownRemark;
@@ -52,11 +52,11 @@ export default ({ data }) => {
                                 <h2 className="main__container-ficha-titulo">Caracteristicas de la Propiedad</h2>
                                 <hr />
                             <div className="main__container-ficha-caracteristicas">
-                                <p className="main__container-ficha-caracteristicas-texto">Habitaciones <FaBed className="main__container-ficha-caracteristicas-icono"/> {propiedad.frontmatter.dormitorios_c}</p>
-                                <p className="main__container-ficha-caracteristicas-texto">Baños <FaShower className="main__container-ficha-caracteristicas-icono"/> {propiedad.frontmatter.bano_c}</p>
-                                <p className="main__container-ficha-caracteristicas-texto">Estacionamiento <FaWarehouse className="main__container-ficha-caracteristicas-icono"/> {propiedad.frontmatter.estacionamiento}</p>
-                                <p className="main__container-ficha-caracteristicas-texto">Superficie <FaRulerCombined className="main__container-ficha-caracteristicas-icono"/> {propiedad.frontmatter.area_u}</p>
-                                <p className="main__container-ficha-caracteristicas-texto">Gasto Común: {propiedad.frontmatter.gastocomun}</p>
+                                <p className="main__container-ficha-caracteristicas-texto"><FaBed className="main__container-ficha-caracteristicas-icono"/> Habitaciones:  {propiedad.frontmatter.dormitorios_c}</p>
+                                <p className="main__container-ficha-caracteristicas-texto"><FaShower className="main__container-ficha-caracteristicas-icono"/> Baños:  {propiedad.frontmatter.bano_c}</p>
+                                <p className="main__container-ficha-caracteristicas-texto"><FaWarehouse className="main__container-ficha-caracteristicas-icono"/> Estacionamiento:  {propiedad.frontmatter.estacionamiento}</p>
+                                <p className="main__container-ficha-caracteristicas-texto"><FaRulerCombined className="main__container-ficha-caracteristicas-icono"/> Superficie:  {propiedad.frontmatter.area_u}</p>
+                                <p className="main__container-ficha-caracteristicas-texto"><FaMoneyBillWave className="main__container-ficha-caracteristicas-icono"/>Gasto Común: {propiedad.frontmatter.gastocomun}</p>
                             </div>
                             <div className="precio__container">
                                 <h3 className="main__container-subtitulo-2">Precio de {propiedad.frontmatter.tipo}</h3>
