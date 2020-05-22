@@ -2,6 +2,8 @@ import React from 'react';
 import './SideDrawer.css';
 import { Link } from 'gatsby';
 
+import '../../assets/fonts/fonts.css'
+
 import Logo from '../../assets/img/logo.svg'
 
 const sideDrawer = props => {

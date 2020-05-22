@@ -30,11 +30,11 @@ hr {
 }
 
 .main__portada-titulo {
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 42px;
   line-height: 42px;
   text-align: center;
   text-indent: 10px;
@@ -78,7 +78,8 @@ hr {
   display: flex; 
   flex-direction: row;
   flex-wrap: wrap;  
-  justify-content: center
+  justify-content: center;
+  padding: 30px;
 }
 
 .destacadas-fichas-link {
@@ -152,13 +153,14 @@ hr {
 
 .pasos__principal {
   background: #F7934C;
-  padding: 45px;
+  padding: 30px;
   color: #fff
 }
 
 .pasos__principal-subtitulo {
   display: flex;
   font-style: normal;
+  font-size: 32px;
   font-weight: bold;
   color: #FFFFFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -208,7 +210,7 @@ hr {
 }
 
 .button__mail {
-  /* display: block; */
+  
   border-radius: 4px;
   background-color: #F7934C;
   border: none;

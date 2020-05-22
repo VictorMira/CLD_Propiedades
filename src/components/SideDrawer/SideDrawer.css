@@ -31,6 +31,8 @@
   
   .side-drawer li {
     margin: 0.5rem 0; 
+    font-family: Candara;
+    font-weight: 600;
   }
   
   .side-drawer a {
@@ -40,6 +42,7 @@
     font-size: 2rem;
     background: #F7934C;
     padding: 15px;
+    border-radius: 5px 0 0 5px;
     
   }
   

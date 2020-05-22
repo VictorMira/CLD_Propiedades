@@ -1,0 +1,209 @@
+.contacto_main {
+  margin: 20px auto; 
+  margin-bottom: 250px;
+  width: 100%; 
+  min-height: 100vh; 
+  overflow: hidden; 
+  position: relative;
+  display: block
+}
+
+.contacto_main-cuadro {
+  display: flex;
+  flex-direction: column;
+  background: #646E78;
+  align-items: center;
+}
+
+.contacto_main-cuadro-bloque {
+  display: flex;
+  height: 600px;
+  width: 100%;
+  background: grey; 
+  background-size: 100% 100% ;
+  background-image: url(./Portada.jpg);
+  align-items: center;
+  background-repeat: no-repeat;
+  justify-content: center
+}
+
+.contacto_main-cuadro-bloque-titulo {
+  display: flex;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-indent: 10px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  justify-content: center
+}
+
+.contacto_main-formulario {
+  display: inline-block;
+  width: 90%;
+  height: 100%;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+  background: rgb(255, 255, 255)
+}
+
+.contacto_main-formulario-bloque {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  height: 90%;
+  left: 320px;
+  top: 527px;
+
+  background: #C4C4C4;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  opacity: 0.8;
+  padding: 25px;
+}
+
+.contacto_main-formulario-cuadro {
+  /* position: absolute; */
+  width: 90%;
+  height: 50px;
+  left: 355px;
+  top: 665px;
+  /* margin: auto; */
+
+  background: #FFFFFF;
+  opacity: 0.5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.contacto_main-formulario-cuadro-texto {
+  /* position: absolute; */
+  width: 90%;
+  height: 100px;
+  left: 356px;
+  top: 845px;
+
+  background: #FFFFFF;
+  opacity: 0.5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+
+}
+
+input::placeholder {
+  font-size: 14px;
+  /* text-align: start; */
+  line-height: 2rem;
+  
+}
+
+textarea::placeholder{
+  font-size: 14px;
+  text-align: start;
+  line-height: 2rem;
+}
+
+.button__mail {
+  /* display: block; */
+  border-radius: 4px;
+  background-color: #F7934C;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: auto;
+
+
+    
+  
+  }
+
+.button__mail span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button__mail span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button__mail:hover span {
+  padding-right: 25px;
+}
+
+.button__mail:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button__whatsapp-titulo{
+  display: none;
+}
+
+.button__whatsapp{
+  display: none;
+  border-radius: 4px;
+  background-color: #58DB74;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+  }
+
+.button__whatsapp span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button__whatsapp span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button__whatsapp:hover span {
+  padding-right: 25px;
+}
+
+.button__whatsapp:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+@media (max-width: 768px){
+  .formulario{
+    display: none;
+  }
+
+  .button__whatsapp-titulo{
+    display: inline-block;
+  }
+
+}
