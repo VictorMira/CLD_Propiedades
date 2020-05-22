@@ -1,15 +1,14 @@
 .footer {
-    position: relative;
+    /* position: relative; */
     bottom: 0%;
     width: 100%;
-    height: 250px;
-    background-image: url('./Footer1.png');
-    background-size: cover;
+    height: 260px;
+    background-color: #646E78 ;    
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start; 
+    justify-content: space-around;
+    align-items: center; 
     clear: both;
-    margin-top: -250px;
+    margin-top: -260px;
     
 }
 
@@ -28,12 +27,26 @@
     color: #F7934C;
 }
 
-.footer__logo{
+/* .footer__logo{
     margin-right: 2rem;
     padding: 10px;
+} */
+
+.footer-logo-mobil{
+    display: none;
+
 }
 
-@media (min-width: 769px){
+@media (max-width: 769px){
+
+    .footer-logo{
+        display: none;
+    }
+
+    .footer-logo-mobil {
+        display: block;
+    }
+
     .footer__contact-whastapp {
       display: none;
     }

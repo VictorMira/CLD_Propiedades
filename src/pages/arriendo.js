@@ -20,23 +20,24 @@ export default ({data}) => {
             className="main-venta-titulo">Propiedades en Arriendo</h1>
             </div>
                 <h4 className="buscar-titulo">{data.allMarkdownRemark.totalCount} Propiedades Publicadas</h4>
+                <hr />
                 <div className="buscar-fichas">
                 {data.allMarkdownRemark.edges.map(({ node }) => (
                     
                     <Link key={node.id} to={node.fields.slug} className="buscar-fichas-link">
                         <div  className="buscar-fichas-ficha">
                             <Img fluid={node.frontmatter.album_image1.childImageSharp.fluid}/>
-                            <h3>
+                            <h3 className="buscar-fichas-ficha-titulo">
                                 {node.frontmatter.title}{" "}
                                 <span>
                                  </span>
 
                             </h3>
-                            <p>{node.excerpt}</p>
+                            <p className="buscar-fichas-ficha-texto">{node.excerpt}</p>
                             <ul className="buscar-fichas-ficha-lista">
-                                    <li>Habitaciones <FaBed/> {node.frontmatter.dormitorios_c}</li>
-                                    <li>Baños <FaShower />{node.frontmatter.bano_c}</li>
-                                    <li>Superficie <FaRulerCombined /> {node.frontmatter.area_u}</li>
+                                    <li className="buscar-ficha-caracteristicas-texto">Habitaciones <FaBed className="buscar-ficha-caracteristicas-icono"/> {node.frontmatter.dormitorios_c}</li>
+                                    <li className="buscar-ficha-caracteristicas-texto">Baños <FaShower className="buscar-ficha-caracteristicas-icono"/>{node.frontmatter.bano_c}</li>
+                                    <li className="buscar-ficha-caracteristicas-texto">Superficie <FaRulerCombined className="buscar-ficha-caracteristicas-icono"/> {node.frontmatter.area_u}</li>
                                 </ul>
                                 <p className="buscar-fichas-ficha-tipo" >{node.frontmatter.tipo}</p>
                                 <h3 className="buscar-fichas-ficha-precio">{node.frontmatter.precio}</h3>
@@ -46,6 +47,7 @@ export default ({data}) => {
                 ))}
                 </div>
                 </div>
+                <hr />
             </main>
         </Layout>
     <Footer />

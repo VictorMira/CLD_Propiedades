@@ -90,7 +90,11 @@ y para eso el principal pilar es comenzar con un trato amable, abierto y mucha c
 
                     </div>
                     <h3>4. Publicación</h3>
-                    <p><FaTasks /> Publicaremos tu propiedad en nuestro sitio web y en las plataformas digitales más importantes del país, para darte la mayor exposición posible y maximizar las oportunidades de ser visto.</p>
+                    <div className="pasos__principal-cuadro-unidad-bloque">
+                        <FaTasks className="pasos__principal-cuadro-unidad-icono"/>
+                        <p className="pasos__principal-cuadro-unidad-texto"> Publicaremos tu propiedad en nuestro sitio web y en las plataformas digitales más importantes del país, para darte la mayor exposición posible y maximizar las oportunidades de ser visto.</p>
+
+                    </div>
             </div>
                     <a href="mailto:corredora@latorredecizer.com" className="button__mail">
                                 <span>Contactanos </span></a>

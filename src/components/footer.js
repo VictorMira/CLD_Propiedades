@@ -1,11 +1,22 @@
 import React from 'react';
+import {Link} from 'gatsby';
 import './footer.css'
+
+import Logo from '../assets/img/logo.svg'
+import Logo2 from '../assets/img/footer-logo.svg'
 
 import {FaPhone, FaEnvelope, FaMapMarked, FaFacebook, FaWhatsapp } from 'react-icons/fa'
 
 
 export default () => (
     <div className="footer" >
+      <div className="footer-logo">
+        <Link to='/' ><img  src={Logo2} style={{ height: '75px', marginBottom: '0px'}} alt="CLD Logo"></img></Link>
+      </div>
+      <div className="footer-logo-mobil">
+        <Link to='/' ><img  src={Logo} style={{ height: '75px', marginBottom: '0px'}} alt="CLD Logo"></img></Link>
+      </div>
+      <div className="footer-texto">
         <ul className="footer__contact">
             <li><FaPhone/> <span style={{
     color: '#fff'
@@ -23,7 +34,10 @@ export default () => (
     color: '#fff'
   }}>Contactanos por Whatsapp</span></li></a>
         </ul>
-        
+      </div>
     </div>
+        
+        
+  
        
 );

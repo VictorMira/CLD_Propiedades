@@ -1,5 +1,13 @@
+hr {
+  width: 90%;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
 .main {
-  margin-top: 25px; 
+  margin-top: 75px; 
   margin-bottom: 250px; 
   min-height: 100vh; 
   overflow: hidden; 
@@ -21,6 +29,7 @@
 }
 
 .main__portada-titulo {
+  margin-top: 30px;
   display: flex;
   font-style: normal;
   font-weight: bold;
@@ -60,7 +69,8 @@
   color: #FFFFFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   padding: 20px;
-  justify-content: center
+  justify-content: center;
+  margin: 0
 }
 
 .destacadas-fichas {
@@ -93,13 +103,14 @@
   margin: 0;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   padding: 10px;
-  justify-content: center
+  justify-content: start
 }
 
 .destacadas-fichas-ficha-texto{
   /* width: 90%; */
   font-size: 0.9rem;
   margin: auto;
+  margin-left: 20px;
   padding: 5px;
 }
 
@@ -155,6 +166,7 @@
 
 .pasos__principal-cuadro {
   background: #646E78;
+  border-radius: 10px;;
   color: #000;
   padding: 20px;
   display: flex;
@@ -188,7 +200,7 @@
 }
 
 .pasos__principal-cuadro-unidad-icono {
-  font-size: 2rem;;
+  font-size: 2.5rem;;
   color: #F7934C;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   margin-right: 30px;
@@ -281,12 +293,14 @@
   }
 
   .main__portada-titulo{
-    margin: 15px;
+    margin: 30px;
   }
 
   .main__portada-modal{
+    width: 90%;
     padding: 15px;
     margin: 0;
+    margin-bottom: 25px;
   }
 
   .destacadas-titulo{
@@ -305,7 +319,7 @@
     width: 90%;
     margin: auto;
     padding: 20px 20px;
-    margin-top: 15px;;
+    margin-top: 15px;
   }
 
   .destacadas-fichas-ficha-titulo{
@@ -341,6 +355,17 @@
     width: 90%;
     margin: auto;
     border-radius: 10px;
+  }
+
+  .pasos__principal-cuadro-unidad-texto {
+    /* padding-bottom: 5px; */
+    margin: auto;
+    font-size: 1.2rem;
+  }
+  
+  .pasos__principal-cuadro-unidad-icono {
+    font-size: 10rem;
+    
   }
 
   .button__mail {

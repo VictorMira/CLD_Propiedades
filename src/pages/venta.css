@@ -36,19 +36,22 @@
 .buscar-titulo {
   display: flex;
   font-weight: bold;
-  line-height: 10px;
-  color: #000;
+  line-height: 40px;
+  color: #fff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   justify-content: center;
-  padding: 20px
+  padding: 15px;
+  margin: auto;
 }
 
 .buscar-fichas {
+  width: 90%;
+  margin: auto;
   display: flex; 
   flex-direction: row;
   flex-wrap: wrap;  
-  width: 100%;
   justify-content: flex-start;
+
 }
 
 .buscar-fichas-link {
@@ -58,11 +61,32 @@
 
 .buscar-fichas-ficha {
   width: 300px; 
-  padding: 10px; 
+  padding: 15px; 
   border-radius: 5px; 
   box-shadow:0 4px 4px rgba(0,0,0,0.25); 
-  margin: 15px;
-  background: #fff;
+  margin: 10px;
+  background: #fff
+}
+
+.buscar-fichas-ficha-titulo {
+  display: flex;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #000;
+  /* line-height: 42px; */
+  margin: 0;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  justify-content: start
+}
+
+.buscar-fichas-ficha-texto{
+  /* width: 90%; */
+  font-size: 0.9rem;
+  margin: auto;
+  margin-left: 20px;
+  padding: 5px;
 }
 
 .buscar-fichas-ficha-lista {
@@ -71,12 +95,30 @@
   font-weight: bold;
 }
 
+.buscar-ficha-caracteristicas-texto {
+  margin: 0;
+  padding: 5px;
+}
+
+.buscar-ficha-caracteristicas-icono {
+  font-size: 22px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 5px;
+}
+
 .buscar-fichas-ficha-tipo {
-  text-transform: capitalize
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 10px;
 }
 
 .buscar-fichas-ficha-precio {
-  color: #58DB74; 
+  color: #F7934C;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1); 
   text-align: right;
 }
 
@@ -97,8 +139,31 @@
   }
 
   .buscar-fichas-ficha {
-    width: 100%;
-    margin: 5px 0;
-    padding: 10px 10px;
+    width: 90%;
+    margin: auto;
+    padding: 20px 20px;
+    margin-top: 15px;
+  }
+
+  .buscar-fichas-ficha-titulo{
+    font-size: 1.5rem;
+  }
+
+  .buscar-fichas-ficha-texto{
+    font-size: 1.3rem;
+  }
+
+  .buscar-fichas-ficha-lista{
+    font-size: 1.3rem;
+  }
+
+  .buscar-fichas-ficha-tipo{
+    font-size: 1.5rem;
+  }
+
+  .buscar-fichas-ficha-precio{
+    font-size: 2rem;
+    margin: 0;
+
   }
 }

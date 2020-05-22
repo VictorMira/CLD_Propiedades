@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Logo from '../assets/img/logo.svg'
+import Logo2 from '../assets/img/footer-logo.svg'
 import DrawerToggleButton from '../components/SideDrawer/DrawerToggleButton'
 
 import './Toolbar.css';
@@ -12,9 +13,9 @@ const toolbar = props => (
                 <DrawerToggleButton click={props.drawerClickHandler}/>
             </div>
             <div className="toolbar__logo">
-                <Link to='/' ><img  src={Logo} style={{ height: '40px', marginBottom: '0px'}} alt="CLD Logo"></img></Link>
+                <Link to='/' ><img  src={Logo2} style={{ height: '50px', marginBottom: '0px'}} alt="CLD Logo"></img></Link>
             </div>
-            <h2 className="toolbar__title"><span style={{color: 'white'}}>CAROLINA LATORRE DECIZER</span> GESTION INMOBILIARIA</h2>
+            {/* <h2 className="toolbar__title"><span style={{color: 'white'}}>CAROLINA LATORRE DECIZER</span> GESTION INMOBILIARIA</h2> */}
             <div className="spacer" />
             <div className="toolbar__navigation-items">
                 <ul>
