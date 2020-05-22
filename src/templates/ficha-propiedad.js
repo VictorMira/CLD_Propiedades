@@ -8,7 +8,7 @@ import './ficha-propiedad.css';
 
 import Img from 'gatsby-image';
 
-import {FaBed, FaShower, FaWarehouse, FaRulerCombined, FaWhatsapp } from 'react-icons/fa';
+import {FaCheckCircle, FaBed, FaShower, FaWarehouse, FaRulerCombined, FaWhatsapp } from 'react-icons/fa';
 
 export default ({ data }) => {
     const propiedad = data.markdownRemark;

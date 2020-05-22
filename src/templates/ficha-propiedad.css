@@ -92,6 +92,8 @@
   border-radius: 10px;
   width: 90%;
   margin:auto;
+
+
 }
 
 .main__container-ficha-titulo {
@@ -123,6 +125,8 @@
   margin: auto;
   /* padding: 20px   */
 }
+
+
 
 .main__container-ficha-fondo-fotos {
   display: flex;
