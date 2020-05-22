@@ -40,5 +40,6 @@ module.exports = {
         pathTonConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-react-helmet`,
   ],
 }

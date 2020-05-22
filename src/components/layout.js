@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 
 import Toolbar from '../components/Toolbar';
 import SideDrawer from '../components/SideDrawer/Sidedrawer';
@@ -30,6 +31,11 @@ render (){
   };
   return (
     <div>
+      <Helmet>
+          <meta charSet="utf-8" />
+          <title>CLD Propiedades</title>
+          <link rel="canonical" href="/" />
+        </Helmet>
         <div style={{margin: '0 auto',
         maxWidth: '1200px',
         minHeight: '100%',
