@@ -21,7 +21,7 @@ hr {
   flex-direction: column;
   width: 100%;
   height: 600px;
-  background: red; 
+  background: grey; 
   background-image: url(./Portada.jpg);
   background-size: 100% 100% ;
   background-repeat: no-repeat;
