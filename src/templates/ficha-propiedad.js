@@ -36,14 +36,14 @@ export default ({ data }) => {
                                 <Img fluid={propiedad.frontmatter.album_image4.childImageSharp.fluid}/></div>
                             <div className="main__container-ficha-fondo-fotos-foto">
                                 <Img fluid={propiedad.frontmatter.album_image5.childImageSharp.fluid}/></div>
-                            <div className="main__container-ficha-fondo-fotos-foto">
+                            {/* <div className="main__container-ficha-fondo-fotos-foto">
                                 <Img fluid={propiedad.frontmatter.album_image6.childImageSharp.fluid}/></div>
                             <div className="main__container-ficha-fondo-fotos-foto">
                                 <Img fluid={propiedad.frontmatter.album_image7.childImageSharp.fluid}/></div>
                             <div className="main__container-ficha-fondo-fotos-foto">
                                 <Img fluid={propiedad.frontmatter.album_image8.childImageSharp.fluid}/></div>
                             <div className="main__container-ficha-fondo-fotos-foto">
-                                <Img fluid={propiedad.frontmatter.album_image9.childImageSharp.fluid}/></div>
+                                <Img fluid={propiedad.frontmatter.album_image9.childImageSharp.fluid}/></div> */}
                         </div>   
                         
                                 <h2 className="main__container-ficha-titulo">Descripción de la Propiedad</h2>
@@ -127,41 +127,7 @@ export const query = graphql`
                         }
                     }
                 }
-                album_image6 {
-                    childImageSharp{
-                        fluid(maxWidth: 900){
-                         ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
-                album_image7 {
-                    childImageSharp{
-                        fluid(maxWidth: 900){
-                         ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
-                album_image8 {
-                    childImageSharp{
-                        fluid(maxWidth: 900){
-                         ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
-                album_image9 {
-                    childImageSharp{
-                        fluid(maxWidth: 900){
-                         ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
-                album_image10 {
-                    childImageSharp{
-                        fluid(maxWidth: 900){
-                         ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
+                
 
             }
         }
