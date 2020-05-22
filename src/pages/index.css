@@ -67,7 +67,6 @@
   display: flex; 
   flex-direction: row;
   flex-wrap: wrap;  
-  width: 100%;
   justify-content: center
 }
 
@@ -77,10 +76,10 @@
 }
 .destacadas-fichas-ficha{
   width: 300px; 
-  padding: 10px; 
+  padding: 15px; 
   border-radius: 5px; 
   box-shadow:0 4px 4px rgba(0,0,0,0.25); 
-  margin: 15px;
+  margin: 10px;
   background: #fff
 }
 
@@ -88,28 +87,59 @@
   display: flex;
   font-style: normal;
   font-weight: bold;
+  font-size: 1.3rem;
   color: #000;
+  /* line-height: 42px; */
+  margin: 0;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-  padding-top: 10px;
+  padding: 10px;
+  justify-content: center
+}
+
+.destacadas-fichas-ficha-texto{
+  /* width: 90%; */
+  font-size: 0.9rem;
+  margin: auto;
+  padding: 5px;
 }
 
 .destacadas-fichas-ficha-lista {
   list-style: none; 
-  font-size: 0.8rem; 
-  font-weight: bold
+  font-size: 0.9rem; 
+  font-weight: bold;
+  padding: 20px;
+  margin: auto;
+}
+
+.destacadas-ficha-caracteristicas-texto {
+  margin: 0;
+  padding: 5px;
+}
+
+.destacadas-ficha-caracteristicas-icono {
+  font-size: 22px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 5px;
 }
 
 .destacadas-fichas-ficha-tipo {
-  text-transform: capitalize
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 10px;
 }
 
 .destacadas-fichas-ficha-precio {
-  color: #58DB74;
+  color: #F7934C;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   text-align: right
 }
 
 .pasos__principal {
-  background: #A2A98F;
+  background: #F7934C;
   padding: 45px;
   color: #fff
 }
@@ -124,7 +154,7 @@
 }
 
 .pasos__principal-cuadro {
-  background: #C4C4C4;
+  background: #646E78;
   color: #000;
   padding: 20px;
   display: flex;
@@ -142,10 +172,32 @@
   width: 100%;
 }
 
+.pasos__principal-cuadro-unidad-bloque {
+  width: 85%;
+  /* margin-left: 30px; */
+  display: flex;
+  justify-content: space-around;
+  /* margin-bottom: 30px; */
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.pasos__principal-cuadro-unidad-texto {
+  /* padding-bottom: 5px; */
+  margin: auto;
+}
+
+.pasos__principal-cuadro-unidad-icono {
+  font-size: 2rem;;
+  color: #F7934C;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  margin-right: 30px;
+}
+
 .button__mail {
   /* display: block; */
   border-radius: 4px;
-  background-color: rgb(234, 172, 8);
+  background-color: #F7934C;
   border: none;
   color: #000;
   text-align: center;
@@ -243,15 +295,52 @@
     margin: 0;
   }
 
-  .destacadas-fichas-ficha {
-    width: 100%;
-    margin: 5px 0;
-    padding: 10px 10px;
+  .destacadas-fichas {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 30px;
   }
+
+  .destacadas-fichas-ficha {
+    width: 90%;
+    margin: auto;
+    padding: 20px 20px;
+    margin-top: 15px;;
+  }
+
+  .destacadas-fichas-ficha-titulo{
+    font-size: 1.5rem;
+  }
+
+  .destacadas-fichas-ficha-texto{
+    font-size: 1.3rem;
+  }
+
+  .destacadas-fichas-ficha-lista{
+    font-size: 1.3rem;
+  }
+
+  .destacadas-fichas-ficha-tipo{
+    font-size: 1.5rem;
+  }
+
+  .destacadas-fichas-ficha-precio{
+    font-size: 2rem;
+    margin: 0;
+
+  }
+
 
   .pasos__principal {
     padding: 0;
     padding-top: 15px;
+    padding-bottom: 20px;
+  }
+
+  .pasos__principal-cuadro {
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
   }
 
   .button__mail {

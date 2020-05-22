@@ -16,7 +16,7 @@
 .footer__contact{
     margin-left: 2rem;
     padding: 10px;
-    color: rgb(245, 213, 68);
+    color: #F7934C;
     list-style: none;
 }
 .footer__contact li{
@@ -25,7 +25,7 @@
 }
 .footer__contact a{
     text-decoration: none;
-    color: rgb(245, 213, 68);
+    color: #F7934C;
 }
 
 .footer__logo{

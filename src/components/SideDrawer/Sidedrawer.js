@@ -11,7 +11,7 @@ const sideDrawer = props => {
   }
   return (
     <nav className={drawerClasses}>
-        <img src={Logo} alt="GVV Propiedades"/>
+        <img src={Logo} alt="CLD Propiedades"/>
         <ul>
             <li><Link to='/'>Inicio</Link></li>
             <li><Link to='/venta'>Venta</Link></li>

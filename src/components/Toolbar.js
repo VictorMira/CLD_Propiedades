@@ -12,9 +12,9 @@ const toolbar = props => (
                 <DrawerToggleButton click={props.drawerClickHandler}/>
             </div>
             <div className="toolbar__logo">
-                <Link to='/' ><img  src={Logo} style={{ height: '40px', marginBottom: '0px'}} alt="GVV Logo"></img></Link>
+                <Link to='/' ><img  src={Logo} style={{ height: '40px', marginBottom: '0px'}} alt="CLD Logo"></img></Link>
             </div>
-            <h2 className="toolbar__title"><span style={{color: 'white'}}>GVV</span> PROPIEDADES</h2>
+            <h2 className="toolbar__title"><span style={{color: 'white'}}>CAROLINA LATORRE DECIZER</span> GESTION INMOBILIARIA</h2>
             <div className="spacer" />
             <div className="toolbar__navigation-items">
                 <ul>

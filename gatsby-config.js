@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `GVV Propiedades`
+    title: `CLD Propiedades`
   },
   plugins: [
     `gatsby-plugin-styled-components`,

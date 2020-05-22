@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: #565656;
+    background: #646E78;
     height: 60px;
     z-index: 100;
 
@@ -17,7 +17,7 @@
 }
 
 .toolbar__logo{
-    color: rgb(234, 172, 8);
+    color: #F7934C;
     padding: 0;
     margin: 0;
    
@@ -29,7 +29,7 @@
     margin: 0;
     margin-left: 1rem;
     padding: 0;
-    color: rgb(234, 172, 8); 
+    color: #F7934C; 
 }
 .spacer {
     flex: 1;
@@ -56,7 +56,7 @@
 
 .toolbar__navigation-items a:hover,
 .toolbar__navigation-items a:active {
-    background: rgb(234, 172, 8);
+    background: #F7934C;
     color: '#000';
 }
 

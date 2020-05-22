@@ -24,16 +24,17 @@ export default ({data}) => (
             <div className="main__portada">
                 <h1 className="main__portada-titulo">Busca tu Propiedad</h1>
                 <div className="main__portada-modal">
-                <p >En GVV Propiedades trabajamos con y para las personas, la meta final es convertir esas casas y departamentos en cálidos hogares 
+                <p >En CLD Gestión Inmoviliaria, trabajamos con y para las personas, la meta final es convertir esas casas y departamentos en cálidos hogares 
 y para eso el principal pilar es comenzar con un trato amable, abierto y mucha confianza.</p>
                 <p>Contáctanos para guiarte, apoyarte y asesorarte en el mundo inmobiliario.</p>
                 
                 </div>
             </div>
             <div style={{
-    background: '#C4C4C4'
+    background: '#646E78'
   }}>
     <h1 className="destacadas-titulo">Propiedades Destacadas</h1>
+    <hr />
     <div className="destacadas-fichas">
     {data.allMarkdownRemark.edges.map(({ node }) => (
           
@@ -47,11 +48,11 @@ y para eso el principal pilar es comenzar con un trato amable, abierto y mucha c
                           
                           </span>
                       </h3>
-                      <p>{node.excerpt}</p>
+                      <p className="destacadas-fichas-ficha-texto">{node.excerpt}</p>
                       <ul className="destacadas-fichas-ficha-lista">
-                          <li>Habitaciones <FaBed/> {node.frontmatter.dormitorios_c}</li>
-                          <li>Baños <FaShower />{node.frontmatter.bano_c}</li>
-                          <li>Superficie <FaRulerCombined /> {node.frontmatter.area_u}</li>
+                          <li className="destacadas-ficha-caracteristicas-texto">Habitaciones <FaBed className="destacadas-ficha-caracteristicas-icono"/> {node.frontmatter.dormitorios_c}</li>
+                          <li className="destacadas-ficha-caracteristicas-texto">Baños <FaShower className="destacadas-ficha-caracteristicas-icono"/>{node.frontmatter.bano_c}</li>
+                          <li className="destacadas-ficha-caracteristicas-texto">Superficie <FaRulerCombined className="destacadas-ficha-caracteristicas-icono"/> {node.frontmatter.area_u}</li>
                       </ul>
                       <p className="destacadas-fichas-ficha-tipo" >{node.frontmatter.tipo}</p>
                       <h3 className="destacadas-fichas-ficha-precio">{node.frontmatter.precio}</h3>
@@ -69,19 +70,31 @@ y para eso el principal pilar es comenzar con un trato amable, abierto y mucha c
                 <div className="pasos__principal-cuadro">
                     <div className="pasos__principal-cuadro-unidad ">
                     <h3>1. Reunión de Coordinación</h3>
-                    <p><FaHandshake /> Agendaremos una reunión para presentarte nuestra metodología de trabajo y además para conocer tu propiedad.</p>
+                    <div className="pasos__principal-cuadro-unidad-bloque">
+                        <FaHandshake className="pasos__principal-cuadro-unidad-icono"/>
+                        <p className="pasos__principal-cuadro-unidad-texto">Agendaremos una reunión para presentarte nuestra metodología de trabajo y además para conocer tu propiedad.</p>
+                    </div>
+                    
                     <h3>2. Propuesta Comercial</h3>
-                    <p><FaClipboardCheck/> Basadonos en las características de tu propiedad y en la investigación de precios publicados en el barrio, procederemos a proponerte un previo de compra/venta o arriendo.</p>
+                    <div className="pasos__principal-cuadro-unidad-bloque">
+                        <FaClipboardCheck className="pasos__principal-cuadro-unidad-icono"/>
+                        <p className="pasos__principal-cuadro-unidad-texto"> Basadonos en las características de tu propiedad y en la investigación de precios publicados en el barrio, procederemos a proponerte un previo de compra/venta o arriendo.</p>
+                    </div>
+                    
                     </div>
             <div className="pasos__principal-cuadro-unidad ">
                     <h3>3. Fotografías de la Propiedad</h3>
-                    <p><FaCameraRetro /> Nos encargaremos de fotografiar tu propiedad para entregar al potencial comprador/arrendatario una clara idea de las características y ubicación de la propiedad.</p>
+                    <div className="pasos__principal-cuadro-unidad-bloque">
+                        <FaCameraRetro className="pasos__principal-cuadro-unidad-icono"/>
+                        <p className="pasos__principal-cuadro-unidad-texto">Nos encargaremos de fotografiar tu propiedad para entregar al potencial comprador/arrendatario una clara idea de las características y ubicación de la propiedad.</p>
+
+                    </div>
                     <h3>4. Publicación</h3>
                     <p><FaTasks /> Publicaremos tu propiedad en nuestro sitio web y en las plataformas digitales más importantes del país, para darte la mayor exposición posible y maximizar las oportunidades de ser visto.</p>
             </div>
-                    <a href="mailto:corredora@gvvpropiedades.com" className="button__mail">
+                    <a href="mailto:corredora@latorredecizer.com" className="button__mail">
                                 <span>Contactanos </span></a>
-                    <a href="https://wa.me/56993356611" className="button__whatsapp">
+                    <a href="https://wa.me/56986911018" className="button__whatsapp">
                                 <span><FaWhatsapp /> Contactanos </span></a>
                 </div>
             </div> 

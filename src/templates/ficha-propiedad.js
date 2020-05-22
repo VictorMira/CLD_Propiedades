@@ -47,17 +47,19 @@ export default ({ data }) => {
                         </div>   
                         
                                 <h2 className="main__container-ficha-titulo">Descripción de la Propiedad</h2>
+                                <hr />
                                 <div className="main__container-ficha-texto" dangerouslySetInnerHTML={{ __html: propiedad.html}}/>                   
                                 <h2 className="main__container-ficha-titulo">Caracteristicas de la Propiedad</h2>
+                                <hr />
                             <div className="main__container-ficha-caracteristicas">
-                                <p>Habitaciones <FaBed/> {propiedad.frontmatter.dormitorios_c}</p>
-                                <p>Baños <FaShower /> {propiedad.frontmatter.bano_c}</p>
-                                <p>Estacionamiento <FaWarehouse/> {propiedad.frontmatter.estacionamiento}</p>
-                                <p>Superficie <FaRulerCombined /> {propiedad.frontmatter.area_u}</p>
-                                <p>Gasto Común: {propiedad.frontmatter.gastocomun}</p>
+                                <p className="main__container-ficha-caracteristicas-texto">Habitaciones <FaBed className="main__container-ficha-caracteristicas-icono"/> {propiedad.frontmatter.dormitorios_c}</p>
+                                <p className="main__container-ficha-caracteristicas-texto">Baños <FaShower className="main__container-ficha-caracteristicas-icono"/> {propiedad.frontmatter.bano_c}</p>
+                                <p className="main__container-ficha-caracteristicas-texto">Estacionamiento <FaWarehouse className="main__container-ficha-caracteristicas-icono"/> {propiedad.frontmatter.estacionamiento}</p>
+                                <p className="main__container-ficha-caracteristicas-texto">Superficie <FaRulerCombined className="main__container-ficha-caracteristicas-icono"/> {propiedad.frontmatter.area_u}</p>
+                                <p className="main__container-ficha-caracteristicas-texto">Gasto Común: {propiedad.frontmatter.gastocomun}</p>
                             </div>
                             <div className="precio__container">
-                                <h3 className="main__container-subtitulo">Precio de {propiedad.frontmatter.tipo}</h3>
+                                <h3 className="main__container-subtitulo-2">Precio de {propiedad.frontmatter.tipo}</h3>
                                 <h1 className="precio-operacion">{propiedad.frontmatter.precio}</h1>
 
                             </div>

@@ -23,7 +23,7 @@ export default () => (
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
-                background: 'rgb(196, 196, 196)'}}>
+                background: '#646E78'}}>
                 <div style={{
                 display: 'flex',
                 width: '100%',
@@ -60,9 +60,9 @@ export default () => (
                          background: 'rgb(255, 255, 255)'}}>
             <p>Contáctenos para solicitar una visita a la propiedad seleccionada</p>
 
-            <p><FaPhone/>+569 9335 6611</p> 
-            <a href="mailto: corredora@gvvpropiedades.com"><p><FaEnvelope />corredora@gvvpropiedades.com</p></a>
-            <p><FaMapMarked />Lincoyan 435, 2do Piso, Oficina D, Concepción</p> 
+            <p><FaPhone/> +569 8691 1018</p> 
+            <a href="mailto: corredora@latorredecizer.com"><p><FaEnvelope /> corredora@gvvpropiedades.com</p></a>
+            <p><FaMapMarked /> Arturo Prat 199, Piso 16, Concepción</p> 
             </div>
         </div>
         </div>
