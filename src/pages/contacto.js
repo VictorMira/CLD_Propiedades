@@ -12,6 +12,13 @@ import {FaPhone, FaEnvelope, FaMapMarked, FaWhatsapp} from 'react-icons/fa'
 export default () => (
     <div>
     <Layout>
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="text" name="phone" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
+
         <main className="contacto_main">
        
         <div style={{ color: '#000'}}>
@@ -28,13 +35,13 @@ export default () => (
                 <div className="formulario">
                 <h3>Formulario de Contacto</h3>
                 <p>Enviénos sus datos para solicitar una visita a la propiedad seleccionada</p>
-                    <form className="contacto_main-formulario-bloque" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <form className="contacto_main-formulario-bloque" name="contact" method="POST">
                         <input type="hidden" name="form-name" value="contact" />
                             <p>
                                 <label>Nombre Completo: <input className="contacto_main-formulario-cuadro" type="text" name="name" placeholder="Ingrese Nombre y Apellido"/></label>
                             </p>
                             <p>
-                                <label>Teléfono de Contato: <input className="contacto_main-formulario-cuadro" type="number" name="phone" placeholder="Ingrese su Teléfono de Contacto"/></label>
+                                <label>Teléfono de Contato: <input className="contacto_main-formulario-cuadro" type="text" name="phone" placeholder="Ingrese su Teléfono de Contacto"/></label>
                             </p>
                             <p>
                                 <label>Correo Electrónico: <input className="contacto_main-formulario-cuadro" type="email" name="email" placeholder="Ingrese su Dirección de Correo"/></label>
