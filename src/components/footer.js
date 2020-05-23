@@ -23,7 +23,7 @@ export default () => (
   }}>+569 8691 1018</span></li> 
             <a href="mailto: carolina@latorredecizer.com"><li><FaEnvelope /> <span style={{
     color: '#fff'
-  }}>corredora@latorredecizer.com</span></li></a>
+  }}>carolina@latorredecizer.com</span></li></a>
             <li><FaMapMarked /> <span style={{
     color: '#fff'
   }}>Cosme Churruca 135, Concepción</span></li>
