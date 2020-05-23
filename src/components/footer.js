@@ -21,7 +21,7 @@ export default () => (
             <li><FaPhone/> <span style={{
     color: '#fff'
   }}>+569 8691 1018</span></li> 
-            <a href="mailto: corredora@latorredecizer.com"><li><FaEnvelope /> <span style={{
+            <a href="mailto: carolina@latorredecizer.com"><li><FaEnvelope /> <span style={{
     color: '#fff'
   }}>corredora@latorredecizer.com</span></li></a>
             <li><FaMapMarked /> <span style={{
