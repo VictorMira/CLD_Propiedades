@@ -69,7 +69,7 @@ export default ({ data }) => {
 
                     </div>
                 </div>
-                <a href="mailto:corredora@latorredecizer.com" className="button"><span>Contactanos </span></a>
+                <a href="/contacto" className="button"><span>Contactanos </span></a>
                 <a href="https://wa.me/56986911018" className="button__whatsapp">
                                 <span><FaWhatsapp /> Contactanos </span></a>
             </div>

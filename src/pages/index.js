@@ -97,7 +97,7 @@ y para eso el principal pilar es comenzar con un trato amable, abierto y mucha c
 
                     </div>
             </div>
-                    <a href="mailto:corredora@latorredecizer.com" className="button__mail">
+                    <a href="/contacto" className="button__mail">
                                 <span>Contactanos </span></a>
                     <a href="https://wa.me/56986911018" className="button__whatsapp">
                                 <span><FaWhatsapp /> Contactanos </span></a>

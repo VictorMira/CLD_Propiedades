@@ -7,7 +7,7 @@ import Portada from '../pages/Portada.jpg'
 import './contacto.css';
 
 
-import {FaPhone, FaEnvelope, FaMapMarked, FaWhatsapp} from 'react-icons/fa'
+import {FaWhatsapp} from 'react-icons/fa'
 
 export default () => (
     <div>

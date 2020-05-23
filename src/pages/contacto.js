@@ -38,16 +38,16 @@ export default () => (
                     <form className="contacto_main-formulario-bloque" name="contact" method="POST" action="/gracias">
                         <input type="hidden" name="form-name" value="contact" />
                             <p>
-                                <label>Nombre Completo: <input className="contacto_main-formulario-cuadro" type="text" name="name" placeholder="Ingrese Nombre y Apellido"/></label>
+                                <label>Nombre Completo: <input className="contacto_main-formulario-cuadro" type="text" name="name" placeholder="Ingrese Nombre y Apellido" required/></label>
                             </p>
                             <p>
-                                <label>Teléfono de Contato: <input className="contacto_main-formulario-cuadro" type="text" name="phone" placeholder="Ingrese su Teléfono de Contacto"/></label>
+                                <label>Teléfono de Contato: <input className="contacto_main-formulario-cuadro" type="text" name="phone" placeholder="Ingrese su Teléfono de Contacto" required/></label>
                             </p>
                             <p>
-                                <label>Correo Electrónico: <input className="contacto_main-formulario-cuadro" type="email" name="email" placeholder="Ingrese su Dirección de Correo"/></label>
+                                <label>Correo Electrónico: <input className="contacto_main-formulario-cuadro" type="email" name="email" placeholder="Ingrese su Dirección de Correo" required/></label>
                             </p>
                             <p>
-                                <label>Texto de Solicitud: <textarea className="contacto_main-formulario-cuadro-texto" name="message" placeholder="Dejenos su Mensaje"></textarea></label>
+                                <label>Texto de Solicitud: <textarea className="contacto_main-formulario-cuadro-texto" name="message" placeholder="Dejenos su Mensaje" required></textarea></label>
                             </p>
                             
                                 <button  className="button__mail" type="submit"><span>Enviar</span></button>
