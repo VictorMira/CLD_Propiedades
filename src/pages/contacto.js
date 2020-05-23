@@ -35,7 +35,7 @@ export default () => (
                 <div className="formulario">
                 <h3>Formulario de Contacto</h3>
                 <p>Enviénos sus datos para solicitar una visita a la propiedad seleccionada</p>
-                    <form className="contacto_main-formulario-bloque" name="contact" method="POST">
+                    <form className="contacto_main-formulario-bloque" name="contact" method="POST" action="/gracias">
                         <input type="hidden" name="form-name" value="contact" />
                             <p>
                                 <label>Nombre Completo: <input className="contacto_main-formulario-cuadro" type="text" name="name" placeholder="Ingrese Nombre y Apellido"/></label>
