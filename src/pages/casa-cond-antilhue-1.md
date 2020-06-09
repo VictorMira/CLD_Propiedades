@@ -14,8 +14,8 @@ living: "S/I"
 estacionamiento: "NO"
 bodega: "S/I"
 gastocomun: "No"
-area_u: "S/I"
-area_t: "S/I"
+area_u: "90"
+area_t: "195"
 cover_image: './casa-cond-antilhue-1/casa-cond-antilhue-1-01.jpg'
 album_image1: './casa-cond-antilhue-1/casa-cond-antilhue-1-01.jpg'
 album_image2: './casa-cond-antilhue-1/casa-cond-antilhue-1-02.jpg'
