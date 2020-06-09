@@ -1,6 +1,6 @@
 ---
 title: "Departamento Condominio Torre Real - 1"
-destacada: 'si'
+destacada: 'no'
 tipo: "arriendo"
 date: "2020-05-21"
 precio: "$340.000"
