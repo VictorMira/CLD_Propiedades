@@ -11,7 +11,7 @@ bano_d: "1 Baños (Principal en Suite)"
 cocina: "Cocina Equipada"
 logia: "S/I"
 living: "S/I"
-estacionamiento: "NO"
+estacionamiento: "Si"
 bodega: "S/I"
 gastocomun: "No"
 area_u: "90"
@@ -29,12 +29,17 @@ album_image9:
 album_image10: 
 ---
 
-Departamento en Arriendo, Excelente Ubicación, Condominio Torre Real, Ubicado en el 16vo Piso de la Torre C.
+Casa en Venta, Excelente ubicación, Condominio Antilhue, Concepción.
+Cuenta con living comedor, estufa de combustión lenta, amplia cocina equipada. Segundo Piso con Home Office.
+Amplio terreno con Quincho techado.
 
-* Piso Alfombrado en ambas habitaciones
-* Closets amplios
+* Amplio Terreno de 195 m2
+* Piso Flotante en toda la casa
+* Acceso lateral techado
+* Césped en Jardín y Patio Trasero
 * Cocina Equipada
-* Conserjería 24 Hrs
+* Conserjería 24 Horas
+
 
 
 
