@@ -128,7 +128,7 @@ export const query = graphql`
                         album_image1 {
                             childImageSharp{
                                  fluid(maxWidth: 900){
-                                     ...GatsbyImageSharpFluid
+                                    ...GatsbyImageSharpFluid
                                 }
                             }
                         }
